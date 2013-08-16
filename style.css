@@ -240,7 +240,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	font-size: 24px;
 }
 	
-#red {
+.red {
 	background-image: url(images/red.jpg);
 	border-right: 7px;
 	border-bottom: 7px;
@@ -249,7 +249,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	behavior: url(PIE,htc);
 }
 
-#green {
+.green {
 	background-image: url(images/green.jpg);
 	border-right: 7px;
 	border-bottom: 7px;
@@ -258,7 +258,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	behavior: url(PIE,htc);
 }
 
-#blue {
+.blue {
 	background-image: url(images/blue.jpg);
 	border-right: 7px;
 	border-bottom: 7px;
@@ -267,7 +267,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	behavior: url(PIE,htc);
 }
 
-#black {
+.black {
 	background-image: url(images/black.jpg);
 	border-right: 7px;
 	border-bottom: 7px;
@@ -276,7 +276,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	behavior: url(PIE,htc);
 }
 
-#purple {
+.purple {
 	background-image: url(images/purple.jpg);
 	border-right: 7px;
 	border-bottom: 7px;
@@ -285,7 +285,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	behavior: url(PIE,htc);
 }
 
-#shelf {
+#shelf1 {
 	width: 900px;
 	height: 200px;
 	-webkit-transform: perspective(400px) translateZ(-100px) rotateX(40deg);
@@ -350,7 +350,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 }
 
 /* Top */
-#top section {
+#topbody section {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -358,16 +358,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 }
 
 /* Contact */
-#contact {
-	background: #fbfaf4;
-	background: -webkit-gradient(linear, left bottom, left top, from(#e3dfde), to(#fbfaf4));
-	background: -moz-linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	background: -o-linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	background: -ms-linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	background: linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	-pie-background: linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-}
-#contact article {
+#contactbody article {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -376,20 +367,19 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	behavior: url(PIE,htc);
 }
 
-#contact article h1 {
+#contactbody article h1 {
 	margin-bottom: 40px;
 }
 
-#contact form {
+#contactbody form {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	border: 20px solid #e3dfde;
-	border-top: 20px solid #fff;
-	border-bottom: 20px solid #eee;
+	border: 1px solid #e3dfde;
+	border-bottom: 8px solid #aaa;
 	padding-top: 50px;
 	padding-bottom: 30px;
 	background: #fbfaf4;
@@ -493,7 +483,7 @@ textarea {
 }
 		
 /* Maintenance */
-#maintenance article {
+#maintenancebody article {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
