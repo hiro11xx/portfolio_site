@@ -166,12 +166,14 @@ nav li:first-child, nav li:first-child a {
 	-webkit-border-radius: 5px 0 0 5px; 
 	-moz-border-radius: 5px 0 0 5px;
 	border-radius: 5px 0 0 5px;
+	behavior: url(PIE,htc);
 }	
 
 nav li:last-child, nav li:last-child a {
 	-webkit-border-radius: 0 5px 5px 0;
 	-moz-border-radius: 0 5px 5px 0;
 	border-radius: 0 5px 5px 0;
+	behavior: url(PIE,htc);
 }
 
 
@@ -364,7 +366,6 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	margin-right: auto;
 	margin-bottom:50px;
 	padding: 0 40px;
-	behavior: url(PIE,htc);
 }
 
 #contactbody article h1 {
