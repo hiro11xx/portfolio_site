@@ -355,7 +355,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 /* Contact */
@@ -363,7 +363,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom:50px;
+	margin-bottom: 70px;
 	padding: 0 40px;
 }
 
@@ -378,7 +378,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	border: 1px solid #e3dfde;
+	border: 1px solid #ede9cf;
 	border-top: 4px solid #fff;
 	box-shadow: 0 -8px 0 #f4f1e1;
 	padding-top: 50px;
