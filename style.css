@@ -342,7 +342,7 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	background: rgb(204,204,204); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(138, 138, 138, 1) 0%, rgba(222, 222, 222, 1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(222, 222, 222, 1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rrgba(222, 222, 222, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* W3C */
@@ -412,14 +412,14 @@ label {
 input, textarea	 {
 	font-size: 20px;
 	padding: 5px;
-	border-bottom: 1px solid #f4f3f1;
+	border: 1px solid #ccc;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	text-shadow: 0 2px #fff;
-	-moz-box-shadow: 0 2px #fff;
-	-webkit-box-shadow: 0 2px #fff;
-	box-shadow: 0 2px 0 #fff;
+	text-shadow: 0 1px #fff;
+	-moz-box-shadow: 0 3px 0 #fff;
+	-webkit-box-shadow: 0 3px 0 #fff;
+	box-shadow: 0 3px 0 #fff;
 	background: #ececec;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fff));
 	background: -moz-linear-gradient(top, #ececec, #fff);
