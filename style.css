@@ -293,7 +293,9 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 #shelf1 {
 	-webkit-transform: perspective(500px) translateZ(40px) rotateX(40deg);
 	transform: perspective(500px) translateZ(40px) rotateX(40deg);
-	border-bottom: solid 8px #aaaaaa;
+	border-bottom: solid 3px #fff;
+	-webkit-box-shadow: 0 3px 0 #d4d4d4;
+	box-shadow: 0 3px 0 #d4d4d4;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
@@ -311,9 +313,9 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 #shelf2 {
 	-webkit-transform: perspective(500px) translateZ(40px) rotateX(40deg);
 	transform: perspective(500px) translateZ(40px) rotateX(40deg);
-	border-bottom: solid 8px #919191;
-	-webkit-box-shadow: 0 1px 7px #aaaaaa;
-	box-shadow: 0 1px 7px #aaaaaa;
+	border-bottom: solid 3px #fff;
+	-webkit-box-shadow: 0 4px 7px #919191;
+	box-shadow: 0 4px 7px #919191;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
@@ -331,20 +333,20 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 #shelf3 {
 	-webkit-transform: perspective(500px) translateZ(40px) rotateX(40deg);
 	transform: perspective(500px) translateZ(40px) rotateX(40deg);
-	border-bottom: solid 8px #787878;
-	-webkit-box-shadow: 0 1px 7px #aaaaaa;
-	box-shadow: 0 1px 7px #aaaaaa;
+	border-bottom: solid 3px #fff;
+	-webkit-box-shadow: 0 4px 7px #787878;
+	box-shadow: 0 4px 7px #787878;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	background: rgb(204,204,204); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(138, 138, 138, 1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,138,138,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(138, 138, 138, 1) 0%,rgba(204,204,204,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='8a8a8a', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top,  rgba(138, 138, 138, 1) 0%, rgba(222, 222, 222, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(222, 222, 222, 1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rrgba(222, 222, 222, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(138, 138, 138, 1) 0%,rgba(222, 222, 222, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='8a8a8a', endColorstr='#dedede',GradientType=0 ); /* IE6-9 */
 	behavior: url(PIE,htc);
 }
 
@@ -377,7 +379,8 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	border: 1px solid #e3dfde;
-	border-bottom: 8px solid #aaa;
+	border-top: 4px solid #fff;
+	box-shadow: 0 -8px 0 #f4f1e1;
 	padding-top: 50px;
 	padding-bottom: 30px;
 	background: #fbfaf4;
