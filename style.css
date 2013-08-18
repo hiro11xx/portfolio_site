@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Codystar|Jacques+Francois+Shadow|Faster+One);
+@import url(http://fonts.googleapis.com/css?family=Codystar);
+@import url(http://fonts.googleapis.com/css?family=Fondamento);
 
 body {
 	background-color: #fff;
@@ -12,7 +13,6 @@ h1 {
 	margin-bottom: 0px;
 	font-family: 'Codystar', cursive;
 	text-shadow: #000 1px 1px 5px, #000 0 0 5px;
-
 }
 
 p {
@@ -183,7 +183,7 @@ nav li:last-child, nav li:last-child a {
 }
 
 
-nav a:hover, nav a:active, nav a.on, nav a.current{
+nav a:hover, nav a:active, nav a.on{
 	height: 30px;
 	line-height: 30px;
 	color: #fff;
@@ -384,18 +384,19 @@ nav a:hover, nav a:active, nav a.on, nav a.current{
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	border: 1px solid #ede9cf;
-	border-top: 4px solid #fff;
-	box-shadow: 0 -8px 0 #f4f1e1;
+	border: 1px solid #ccc;
+	border-bottom: 4px solid #fff;
+	box-shadow: 0 8px 0 rgba(204,204,204,1);
 	padding-top: 50px;
 	padding-bottom: 30px;
-	background: #fbfaf4;
-	background: -webkit-gradient(linear, left bottom, left top, from(#e3dfde), to(#fbfaf4));
-	background: -moz-linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	background: -o-linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	background: -ms-linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	background: linear-gradient(bottom,  #e3dfde,  #fbfaf4);
-	-pie-background: linear-gradient(bottom,  #e3dfde,  #fbfaf4);
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(bottom,  rgba(238,238,238,1) 0%, rgba(230, 230, 230, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(230, 230, 230, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(bottom,  rgba(238,238,238,1) 0%,rgba(230, 230, 230, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(bottom,  rgba(238,238,238,1) 0%,rgba(230, 230, 230, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(bottom,  rgba(238,238,238,1) 0%,rgba(230, 230, 230, 1) 100%); /* IE10+ */
+	background: linear-gradient(to top,  rgba(238,238,238,1) 0%,rgba(230, 230, 230, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
 	behavior: url(PIE.htc);
 }
 	
@@ -423,15 +424,15 @@ input, textarea	 {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	text-shadow: 0 1px #fff;
-	-moz-box-shadow: 0 3px 0 #fff;
-	-webkit-box-shadow: 0 3px 0 #fff;
-	box-shadow: 0 3px 0 #fff;
+	-moz-box-shadow: 0 -3px 0 #fff;
+	-webkit-box-shadow: 0 -3px 0 #fff;
+	box-shadow: 0 -3px 0 #fff;
 	background: #ececec;
-	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fff));
-	background: -moz-linear-gradient(top, #ececec, #fff);
-	background: -o-linear-gradient(top, #ececec, #fff);
-	background: -ms-linear-gradient(top, #ececec, #fff);
-	background: linear-gradient(top, #ececec, #fff);
+	background: -webkit-gradient(linear, left bottom, left top, from(#ececec), to(#fff));
+	background: -moz-linear-gradient(bottom, #ececec, #fff);
+	background: -o-linear-gradient(bottom, #ececec, #fff);
+	background: -ms-linear-gradient(bottom, #ececec, #fff);
+	background: linear-gradient(bottom, #ececec, #fff);
 	behavior: url(PIE.htc);
 }
 
@@ -445,6 +446,7 @@ textarea {
 }
 
 #submit {
+	color: #999;
 	display: block;
 	position: relative;
 	font-size: 14px;
@@ -473,6 +475,8 @@ textarea {
 }
 
 #submit:hover {
+	color: #fff;
+	text-shadow: #a6ff00 0 0 5px;
 	border: 1px solid #bdbdbd;
 	border-bottom: 1px solid #a8a8a8;
 	background: rgb(224,224,224); /* Old browsers */
@@ -499,6 +503,10 @@ textarea {
 	text-align: center;
 }
 
+#maintenancebody article p {
+	font-family: 'Fondamento', cursive;
+	font-size: 30px;
+}
 .box {
 	width: 900px;
 	position: relative;
