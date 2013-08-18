@@ -1,12 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Codystar|Jacques+Francois+Shadow|Faster+One);
+
 body {
 	background-color: #fff;
 	margin: 0
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 40px;
+	color: #fff;
 	margin-top: 0;
-	margin-bottom: 0px
+	margin-bottom: 0px;
+	font-family: 'Codystar', cursive;
+	text-shadow: #000 1px 1px 5px, #000 0 0 5px;
+
 }
 
 p {
